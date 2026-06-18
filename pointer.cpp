@@ -7,10 +7,10 @@ int main(){
    string name = "shripada";
    string* addressofname = &name;
 
-   *addressofname = "haripada";
+   *addressofname = "shripada";
 
-   cout << addressofname << "\n";
-   cout << *addressofname<<"\n";
+   cout <<"memory address:- " << addressofname << "\n";
+   cout <<"value:- "<< *addressofname <<"\n";
    cout << sizeof(num);
 
 
